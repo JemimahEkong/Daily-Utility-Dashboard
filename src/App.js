@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import Calculator from "./Components/Calculator";
+import Notes from "./Components/Note";
+import Todo from "./Components/Todo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header className="navbar">
+        <h1>Daily Utility Dashboard</h1>
       </header>
+
+      <main className="dashboard">
+        <div className="card">
+          <Calculator />
+        </div>
+        <div className="card">
+          <Notes />
+        </div>
+        <div className="card">
+          <Todo />
+        </div>
+      </main>
     </div>
   );
 }
+
+// App.js (add this inside your return, after main)
+<footer className="footer">
+  <p>© {new Date().getFullYear()} Daily Utility Dashboard. All Rights Reserved.</p>
+</footer>
+
 
 export default App;
