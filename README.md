@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+Daily Utility Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Daily Utility Dashboard is a modern, responsive dashboard built with ReactJS and JavaScript. It features essential daily tools for general use. Designed for students, professionals, and anyone looking to organize their day, take notes, calculate numbers, and manage tasks efficiently, all in one place.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Calculator: Perform basic arithmetic operations quickly
 
-### `npm start`
+Notes: Write and save quick notes in a clean interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To-Do List: Manage daily tasks with check/uncheck functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsive Design: Works beautifully on desktop, tablet, and mobile devices
 
-### `npm test`
+Dark Theme Dashboard: Deep blue background with modern transparent cards for a clean, aesthetic look
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Design and Styling
 
-### `npm run build`
+Colors: Deep navy blue background (#0a192f), transparent card widgets with subtle shadows, minty green accent highlights (#64ffda)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Typography: Clean, readable fonts with bold headers for emphasis
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Layout: Flexible grid layout ensures widgets automatically adjust to screen size
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Widgets: Rounded corners, smooth shadows, and subtle hover effects for interactive feel
 
-### `npm run eject`
+Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Frontend: ReactJS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Language: JavaScript (ES6+)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Styling: Pure CSS (no additional frameworks)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Tools: Node.js, npm
 
-## Learn More
+AI Integration Plan
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+AI (Cursor / GPT-5 mini) was leveraged for:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Code generation: Assisted in scaffolding React components and writing widget logic
 
-### Code Splitting
+Testing support: Helped ensure components function as expected
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Documentation: Generated clean README and inline comments
 
-### Analyzing the Bundle Size
+Context-aware assistance: Guided layout design, color scheme, and responsive behavior
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Getting Started
 
-### Making a Progressive Web App
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+git clone https://github.com/JemimahEkong/Daily-Utility-Dashboard.git
 
-### Advanced Configuration
+Navigate to the project folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+cd daily-utility-dashboard
 
-### Deployment
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install
 
-### `npm run build` fails to minify
+Run the app:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+
+Open http://localhost:3000
+ to view it in your browser
+
+File Structure
+
+src/
+
+App.js
+
+index.css
+
+index.js
+
+components/
+
+Calculator.js
+
+Notes.js
+
+Todo.js
+
+License
+
+This project is open-source and free to use. Feel free to customize and expand it for personal or educational purposes.
+
+Notes
+
+Designed to be lightweight and simple, with minimal dependencies
+
+Fully responsive and ready for future feature expansions like weather, quote generator, or search widgets
